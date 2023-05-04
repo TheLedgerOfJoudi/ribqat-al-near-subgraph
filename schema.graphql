@@ -1,0 +1,8 @@
+
+type Storage @entity {
+  id: ID!
+  initialStorage: BigDecimal!
+  currentStorage: BigDecimal!
+  attachedDeposit: BigDecimal!
+}
+
