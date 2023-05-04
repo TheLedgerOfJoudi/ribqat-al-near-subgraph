@@ -8,7 +8,8 @@
     "create-local": "graph create --node http://localhost:8020/ ribqat-al-near-subgraph",
     "remove-local": "graph remove --node http://localhost:8020/ ribqat-al-near-subgraph",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ribqat-al-near-subgraph",
-    "test": "graph test"
+    "test": "graph test",
+    "view": "http-server analytics -c-1"
   },
   "dependencies": {
     "@graphprotocol/graph-ts": "0.29.1"
